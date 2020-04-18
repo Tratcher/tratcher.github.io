@@ -1,4 +1,4 @@
-### Dream With Me
+[Writing](/writing/)
 
 5-Dec-99<br>
 Between these pages<br>

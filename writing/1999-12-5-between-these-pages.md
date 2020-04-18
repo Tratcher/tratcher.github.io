@@ -1,3 +1,8 @@
+---
+layout: page
+title: Between these Pages
+---
+
 ###### 1999 December 5<br>
 Between these pages<br>
 There is nothing to read<br>

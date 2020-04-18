@@ -15,6 +15,13 @@ Title                 | Date
  [Alone, Together](2001-10-01-alone,-together) | 2001 October 1 
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
 
-## Topical
+## By Topic
 
-### Philosophical
+### Friends
+- [Hello Again](2001-06-08-hello-again)
+- [Alone, Together](2001-10-01-alone,-together)
+
+### Writing
+- [Between these pages](1999-12-05-between-these-pages)
+- [Programing the Poet](2004-04-11-programing-the-poet)
+

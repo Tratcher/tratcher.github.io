@@ -1,4 +1,4 @@
-###### 5-Dec-99<br>
+###### 1999 December 5<br>
 Between these pages<br>
 There is nothing to read<br>
 Nothing to see<br>

@@ -1,4 +1,7 @@
-# Index of Writings
+---
+layout: page
+title: Index of Writings
+---
 
 ## Chronological
 

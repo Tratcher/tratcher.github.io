@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Programming the Poet
 ---
 ###### 11-Apr-04<br>

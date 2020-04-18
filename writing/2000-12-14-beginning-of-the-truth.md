@@ -22,9 +22,9 @@ In order to save us all<br>
 
 <details>
   <summary>Background</summary>
-Babylon 5 is my favorite TV series. This was written after watching Season 3, episode 10 "Severed Dreams". This is the most powerful episode in the series.
-
-"Delenn: Babylon 5 is under our protection. Withdraw or be destroyed! ... Only one human captain has ever survived battle with a Minbari Fleet. He is behind me. You are in front of me. If you value your lives, be somewhere else!"
-
+Babylon 5 is my favorite TV series. This was written after watching Season 3, episode 10 "Severed Dreams". This is the most powerful episode in the series.<br>
+<br>
+"Delenn: Babylon 5 is under our protection. Withdraw or be destroyed! ... Only one human captain has ever survived battle with a Minbari Fleet. He is behind me. You are in front of me. If you value your lives, be somewhere else!"<br>
+<br>
 See also entry "Babylon 5" 1999 March 12
 </details>

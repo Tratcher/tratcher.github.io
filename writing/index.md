@@ -2,7 +2,7 @@
 
 This is a collection of poems and other things I've written over the years. It ranges from philosophical to emotional, well formed to half baked. If you'd like to discuss anything here feel free to contact me at the e-mail address listed in my github profile.
 
-[Table of contents](/writing/toc.html)
+[Table of contents](/writing/toc)
 
 ### History
 

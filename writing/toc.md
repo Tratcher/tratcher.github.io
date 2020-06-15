@@ -14,6 +14,7 @@ Title                 | Date
  [Gazing Peacefully](2001-07-15-gazing-peacefully) | 2001 July 15 
  [Alone, Together](2001-10-01-alone,-together) | 2001 October 1 
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
+ [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
 
 ## By Topic
 
@@ -25,3 +26,5 @@ Title                 | Date
 - [Between these pages](1999-12-05-between-these-pages)
 - [Programing the Poet](2004-04-11-programing-the-poet)
 
+### Ideas
+-  [Dynamic Braille](2010-04-10-dynamic-braille)

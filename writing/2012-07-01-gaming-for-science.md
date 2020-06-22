@@ -11,6 +11,7 @@ Just how does one get a very high score in DK2?  How is the score even computed?
 Conveniently the score screen at the end of each level has a long list of statistics about your accomplishments.  However there is no obvious relationship drawn between these fields and your score beyond the high-level observation that higher numbers tend to give you a higher score.  A much more careful analysis was going to be needed.
 
 Here are the score screen fields:
+
 | Field                  | Description                                                                   | Sample range                  |
 |------------------------|-------------------------------------------------------------------------------|-------------------------------|
 | Level                  | The level title (though I just use #s)                                        | 11b – “Carnage” – Sparklydell |
@@ -39,7 +40,7 @@ Step 3: Iterate – When I had some rough numbers that looked promising it was t
 
 <details>
   <summary>Data collected</summary>
-https://docs.google.com/spreadsheets/d/1GO8WPQvnhvWq2Y4bXqznJs8lGJVA2Dy8Z168P6EowNs/edit#gid=0
+https://docs.google.com/spreadsheets/d/1GO8WPQvnhvWq2Y4bXqznJs8lGJVA2Dy8Z168P6EowNs/edit#gid=0 <br/>
   
 | ID | Level     | Score   | Specials Found | Total Specials | Victory | Time    | Creature Kills | Hero Kills | * Rooms Captured | Land Owned | Gold Mined | Mana Stored | Items made | Creatures | Converts | Training | Attempts |   | Calculated score | Diff | Probobly room area captured |
 |----|-----------|---------|----------------|----------------|---------|---------|----------------|------------|------------------|------------|------------|-------------|------------|-----------|----------|----------|----------|---|------------------|------|-----------------------------|

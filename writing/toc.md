@@ -15,6 +15,7 @@ Title                 | Date
  [Alone, Together](2001-10-01-alone,-together) | 2001 October 1 
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
  [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
+ [Gaming, For Science!](2012-07-01-gaming-for-science) | 2012 July 1
 
 ## By Topic
 
@@ -27,4 +28,7 @@ Title                 | Date
 - [Programing the Poet](2004-04-11-programing-the-poet)
 
 ### Ideas
--  [Dynamic Braille](2010-04-10-dynamic-braille)
+- [Dynamic Braille](2010-04-10-dynamic-braille)
+
+### Gaming
+- [Gaming, For Science!](2012-07-01-gaming-for-science)

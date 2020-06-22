@@ -89,4 +89,4 @@ At this point I also want to give a shout out to the developers of DK2.  Bullfro
 <details>
   <summary>Background</summary>
 Originally posted at https://tracher.livejournal.com/119711.html
- <details> 
+</details> 

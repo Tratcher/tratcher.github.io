@@ -16,6 +16,7 @@ Title                 | Date
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
  [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
  [Gaming, For Science!](2012-07-01-gaming-for-science) | 2012 July 1
+ [Software is a VW bug](2012-12-20-software-vw) | 2012 December 20
 
 ## By Topic
 
@@ -32,3 +33,7 @@ Title                 | Date
 
 ### Gaming
 - [Gaming, For Science!](2012-07-01-gaming-for-science)
+
+### Software
+- [Programing the Poet](2004-04-11-programing-the-poet)
+- [Software is a VW bug](2012-12-20-software-vw)

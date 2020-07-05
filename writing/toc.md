@@ -17,6 +17,7 @@ Title                 | Date
  [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
  [Gaming, For Science!](2012-07-01-gaming-for-science) | 2012 July 1
  [Software is a VW bug](2012-12-20-software-vw) | 2012 December 20
+ [Humanoid Robots](2016-10-30-Humanoid-Robots) | 2016 October 30
 
 ## By Topic
 
@@ -37,3 +38,4 @@ Title                 | Date
 ### Software
 - [Programing the Poet](2004-04-11-programing-the-poet)
 - [Software is a VW bug](2012-12-20-software-vw)
+- [Humanoid Robots](2016-10-30-Humanoid-Robots)

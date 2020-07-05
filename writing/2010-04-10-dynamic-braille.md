@@ -28,17 +28,18 @@ Challenges:
 
 <details>
   <summary>Comments</summary>
-BW: More pins would mean better resolution. But for hardware, pneumatics could drive it, and you could use springs for the return. A mechanism similar to a click pin could lock the pins into "on"or "off" positions. Variable depth would of course be harder. ;-)
   
-CR: Would that allow for 'touch' back-pressure sensors?
+BW: More pins would mean better resolution. But for hardware, pneumatics could drive it, and you could use springs for the return. A mechanism similar to a click pin could lock the pins into "on"or "off" positions. Variable depth would of course be harder. ;-)<br/>
+  
+CR: Would that allow for 'touch' back-pressure sensors?<br/>
 
-TB: You could use a ton of tiny solenoid switches, giving you electronic control automatically: https://www.youtube.com/watch?v=hsoggQOoG4s
+TB: You could use a ton of tiny solenoid switches, giving you electronic control automatically: https://www.youtube.com/watch?v=hsoggQOoG4s<br/>
 
-BW: A solenoid and LVDT have essentially the same guts, so that might work. You'd need to keep each element as radially compact as possible.
+BW: A solenoid and LVDT have essentially the same guts, so that might work. You'd need to keep each element as radially compact as possible.<br/>
 
-CR: Another crazy idea occurred to me today. What if the individual 'pixels' had an embedded fiber-optic so they could be actual color pixels at the same time?
+CR: Another crazy idea occurred to me today. What if the individual 'pixels' had an embedded fiber-optic so they could be actual color pixels at the same time?<br/>
 
-BW: That'd make for a crazy cool display, but you're probably not going to approach the resolution of today's flatscreens. Probably best to stick to the original purpose and develop a screen that a blind person might be able to use.
+BW: That'd make for a crazy cool display, but you're probably not going to approach the resolution of today's flatscreens. Probably best to stick to the original purpose and develop a screen that a blind person might be able to use.<br/>
 </details>
 
 <details>

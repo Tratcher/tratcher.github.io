@@ -57,23 +57,22 @@ Z: I find that, when playing the best players I can find, I (nearly) always win 
 C: Sounds awesome. If I'm actually going to end up coding this, I was going to start with a map maker, a basic game engine, and then a simple random play algorithm. I bet this is one of those games that random won't be very good at, so it will be easy to actually see improvements.<br>
 RG: I remember seeing a drastically simplified version of this game in a puzzle book when I was a kid. The solution wouldn't be applicable though, due to the map and rules.<br>
 Z:<br>
-Have you considered using a simple alpha-beta pruning tree, using "possible movements of fugitive" as an evaluation metric to minmax? There is a *huge* multipliciy of moves for each "detectives" turn (I just consider the detectives to have one large "supermove"). I think, in general, an evaluation function that minimizes the number of potential moves the fugitive has is a good start.
-
-I've never lost a game (as either side, though I expect this is mostly because I haven't played against good detectives), and here is what I, personally, use as my detectives strategy, which is in three stages:
-
-Stage 1 - Become Ready For Movement: For the first few moves, ensure that you'll be at (preferred) or able to move to an underground square when Mr. X reveals himself.
-
-Stage 2 - Create A Perimeter: Once he's revealed himself, move the detectives toward him, but maintain distance and control of the underground nodes (make sure that it's not possible for the fugitive to move onto an underground square -- this requires tracking every possible location he could be). This creates a large-diameter "net" for him, and prevents him from causing you to have to repeat this stage...
-
-Stage 3 - Tighten the net: Once he's revealed himself for the third time, your detectives have likely gotten nowhere near their resource limitations, and the fugitive is somewhere between the five of them. Whittle down his possible locations, until you're certain where he is, and nab him. This usually means blocking off bus routes, so you're certain he's using taxis.
-
-
-So, I'm essentially playing a different game than most people. I'm actually treating it as a game of reducing the number possible nodes Mr. X could be on to zero. So, I implement it (in my head) as a simple pruning tree, where I treat the collection of possible fugitive locations as his "actual" location. This removes the "chance" aspect from the game, by and large.
-
-To implement it in a standard alpha-beta tree, the "board state" would have to include the detective's locations, the fugitive's location, *and* the collection of nodes that the fugitive could be at, as known by the detectives (this is also important to consider as the fugitive, so he doesn't give away information he doesn't have to, by doing something like taking a bus when he could take a taxi for the same route or vice versa). Then, the fugitive is attempting to max the cardinality of the "possible movements from possible locations" metric, and the detectives are trying to minimize it, and it's pluggable into whatever game decision engine you like, be it a neural net, or an alpha beta tree, or whatever.
-
-Random thought - Go players are amazingly good at this game, I've found. Might want to look into that for ideas. There are actually a lot of similarities, given the "surround and close in" nature of battles in Go.
-
+Have you considered using a simple alpha-beta pruning tree, using "possible movements of fugitive" as an evaluation metric to minmax? There is a *huge* multipliciy of moves for each "detectives" turn (I just consider the detectives to have one large "supermove"). I think, in general, an evaluation function that minimizes the number of potential moves the fugitive has is a good start.<br>
+<br>
+I've never lost a game (as either side, though I expect this is mostly because I haven't played against good detectives), and here is what I, personally, use as my detectives strategy, which is in three stages:<br>
+<br>
+Stage 1 - Become Ready For Movement: For the first few moves, ensure that you'll be at (preferred) or able to move to an underground square when Mr. X reveals himself.<br>
+<br>
+Stage 2 - Create A Perimeter: Once he's revealed himself, move the detectives toward him, but maintain distance and control of the underground nodes (make sure that it's not possible for the fugitive to move onto an underground square -- this requires tracking every possible location he could be). This creates a large-diameter "net" for him, and prevents him from causing you to have to repeat this stage...<br>
+<br>
+Stage 3 - Tighten the net: Once he's revealed himself for the third time, your detectives have likely gotten nowhere near their resource limitations, and the fugitive is somewhere between the five of them. Whittle down his possible locations, until you're certain where he is, and nab him. This usually means blocking off bus routes, so you're certain he's using taxis.<br>
+<br>
+So, I'm essentially playing a different game than most people. I'm actually treating it as a game of reducing the number possible nodes Mr. X could be on to zero. So, I implement it (in my head) as a simple pruning tree, where I treat the collection of possible fugitive locations as his "actual" location. This removes the "chance" aspect from the game, by and large.<br>
+<br>
+To implement it in a standard alpha-beta tree, the "board state" would have to include the detective's locations, the fugitive's location, *and* the collection of nodes that the fugitive could be at, as known by the detectives (this is also important to consider as the fugitive, so he doesn't give away information he doesn't have to, by doing something like taking a bus when he could take a taxi for the same route or vice versa). Then, the fugitive is attempting to max the cardinality of the "possible movements from possible locations" metric, and the detectives are trying to minimize it, and it's pluggable into whatever game decision engine you like, be it a neural net, or an alpha beta tree, or whatever.<br>
+<br>
+Random thought - Go players are amazingly good at this game, I've found. Might want to look into that for ideas. There are actually a lot of similarities, given the "surround and close in" nature of battles in Go.<br>
+<br>
 C: I was thinking much along these lines, but I'm not sure on the specifics of how to coordinate 5 detectives in such a maneuver. I think this coordination is one of the more interesting problems for both AI and real players.<br>
 R: When using the defined set of starting locations, do you have the detectives work out what spots Mr. X could possibly be in?<br>
 Z: If you're asking me, no, I don't bother. It rapidly becomes "the whole board" after the first couple turns. I treat that as "unknown" and head for the underground stations.<br>

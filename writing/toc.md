@@ -15,10 +15,11 @@ Title                 | Date
  [Alone, Together](2001-10-01-alone,-together) | 2001 October 1 
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
  [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
+ [Scotland Yard](2010-06-29-scotland-yard) | 2010 June 29
  [Gaming, For Science!](2012-07-01-gaming-for-science) | 2012 July 1
  [Software is a VW bug](2012-12-20-software-vw) | 2012 December 20
  [Humanoid Robots](2016-10-30-Humanoid-Robots) | 2016 October 30
-
+ 
 ## By Topic
 
 ### Friends
@@ -33,6 +34,7 @@ Title                 | Date
 - [Dynamic Braille](2010-04-10-dynamic-braille)
 
 ### Gaming
+- [Scotland Yard](2010-06-29-scotland-yard)
 - [Gaming, For Science!](2012-07-01-gaming-for-science)
 
 ### Software

@@ -14,6 +14,7 @@ Title                 | Date
  [Gazing Peacefully](2001-07-15-gazing-peacefully) | 2001 July 15 
  [Alone, Together](2001-10-01-alone,-together) | 2001 October 1 
  [Programing the Poet](2004-04-11-programing-the-poet) | 2004 April 11
+ [Virtual Walkabout](2009-08-30-virtual-walkabout) | 2009 August 30
  [Dominion](2009-10-19-Dominion) | 2009 October 19
  [Dynamic Braille](2010-04-10-dynamic-braille) | 2010 April 10
  [Scotland Yard](2010-06-29-scotland-yard) | 2010 June 29
@@ -33,6 +34,7 @@ Title                 | Date
 
 ### Ideas
 - [Dynamic Braille](2010-04-10-dynamic-braille)
+- [Virtual Walkabout](2009-08-30-virtual-walkabout)
 
 ### Gaming
 - [Dominion](2009-10-19-Dominion)
